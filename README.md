@@ -9,7 +9,7 @@
 4. `$ pip install -r requirements.txt`
 4. `$ python server.py`
 
-**Use REST API client such as [postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) to test the API.**
+**Use REST API client such as [postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) or CURL to test the API.**
 
 # Fake database
 ```json
@@ -33,5 +33,8 @@
 |POST|http://localhost:5000|*create a company*|
 |PUT|http://localhost:5000/<company_id>| *updates company with company_id*|
 |DELETE|http://localhost:5000/<company_id>| *deletes the company with company_id*|
+
+# Unit Testing
+Run `$ python -m unittest discover -p '*_test.py'` in your terminal by staying in the peoject root directory to run the unit tests.
 
 > [girisagar46.github.io](https://girisagar46.github.io)
