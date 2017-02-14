@@ -29,10 +29,10 @@
 |METHOD|URL|DESCRIPTION|
 |------|---|-----------|
 |GET|http://localhost:5000| *gets all compay list*|
-|GET|http://localhost:5000/<company_id>| *gets specefic compay name based on company_id*|
+|GET|http://localhost:5000/company_id| *gets specefic compay name based on company_id*|
 |POST|http://localhost:5000|*create a company*|
-|PUT|http://localhost:5000/<company_id>| *updates company with company_id*|
-|DELETE|http://localhost:5000/<company_id>| *deletes the company with company_id*|
+|PUT|http://localhost:5000/company_id| *updates company with company_id*|
+|DELETE|http://localhost:5000/company_id| *deletes the company with company_id*|
 
 # Unit Testing
 Run `$ python -m unittest discover -p '*_test.py'` in your terminal by staying in the peoject root directory to run the unit tests.
