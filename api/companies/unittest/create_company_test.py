@@ -1,5 +1,5 @@
 from api.lib.testutils import BaseTestCase
-import unittest
+import api.companies.unittest
 
 class TestCreateCompany(BaseTestCase):
     def test_create_company(self):
@@ -11,4 +11,4 @@ class TestCreateCompany(BaseTestCase):
         assert "google" in resp.data
 
 if __name__ == "__main__":
-    unittest.main()
+    api.companies.unittest.main()

@@ -1,5 +1,5 @@
 from api.lib.testutils import BaseTestCase
-import unittest
+import api.companies.unittest
 
 class TestReadCompanies(BaseTestCase):
     def test_read_companies(self):
@@ -7,4 +7,4 @@ class TestReadCompanies(BaseTestCase):
         assert "exponential" in resp.data
 
 if __name__ == "__main__":
-    unittest.main()
+    api.companies.unittest.main()

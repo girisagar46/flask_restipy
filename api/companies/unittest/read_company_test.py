@@ -1,5 +1,5 @@
 from api.lib.testutils import BaseTestCase
-import unittest
+import api.companies.unittest
 
 class TestReadCompany(BaseTestCase):
     def test_read_company(self):
@@ -7,4 +7,4 @@ class TestReadCompany(BaseTestCase):
         assert 'Palo Alto' in resp.data
 
 if __name__ == "__main__":
-    unittest.main()
+    api.companies.unittest.main()
