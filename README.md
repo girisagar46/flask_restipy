@@ -34,7 +34,7 @@
 |PUT|http://localhost:5000/company_id| *updates company with company_id*|
 |DELETE|http://localhost:5000/company_id| *deletes the company with company_id*|
 
-# Unit Testing
+# Unit Testing --
 Run `$ python -m unittest discover -p '*_test.py'` in your terminal by staying in the peoject root directory to run the unit tests.
 
 > [girisagar46.github.io](https://girisagar46.github.io)
